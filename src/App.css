@@ -1,0 +1,96 @@
+.Head{
+  background-color: deepskyblue;
+  height: 60px;
+  padding-left: 40px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Body{
+  background: rgb(50, 50, 50);
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StaffDisplay{
+
+  width: 550px;
+  background-color: white;
+  padding-left: 50px;
+  
+}
+
+.ListNumber{
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Name{
+  font-weight: bold;
+  /* text-decoration: deepskyblue underline; */
+  font-size: 30px;
+  margin-bottom: 25px;
+
+}
+
+.Name span{
+  border-bottom-color: deepskyblue;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.BasicInfo div{
+  line-height: 25px;
+}
+
+.InfoTitle{
+  font-weight: bold;
+}
+
+.Movie{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Movie ol{
+  margin-top: 5px;
+}
+.Movie ol li{
+  line-height: 25px;
+}
+
+.ControlBtn{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 10px;
+
+}
+
+.browseBtn{
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+}
+
+.mBtn{
+  background-color: deepskyblue;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border-style: none ;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
